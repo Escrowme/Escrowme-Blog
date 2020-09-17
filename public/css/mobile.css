@@ -42,7 +42,7 @@
 .logo {
   height: 2rem;
   color: black;
-  background: white;
+  background: #72c5e2;
   font-family: "Merriweather", "Serif";
   font-weight: 900;
   margin: auto 0;
@@ -164,7 +164,7 @@
   width: 80%;
   height: 5rem;
   margin: 2rem auto;
-  background: white;
+  background: #72c5e2;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -315,4 +315,10 @@
 .blog__post--text h2 {
   font-family: "Merriweather", "Serif";
   margin: 1rem 0;
+}
+
+.sneak__peak--ui {
+  width: 15rem;
+  height: 30rem;
+  margin: 1rem 2rem;
 }
