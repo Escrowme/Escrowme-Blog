@@ -1,0 +1,37 @@
+:root {
+  --bg-color: #f4f4f4;
+  --pri-color: #88d0e9;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* Colors
+************** black family
+#f4f4f4
+#cccccc
+
+************* Blue family
+#88d0e9 
+#72c5e2
+#c1e8f5
+
+************* Fonts
+"Merriweather", "Serif"
+"Source sans pro", "Sans-Serif"
+*/
+
+body {
+  background: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
